@@ -1,16 +1,8 @@
-# linkedin07bmicalculator
+# BMI Calculator
 
-A new Flutter project.
+The goal of this project was to create an Flutter application that is capable of calculating Body mass index. This projects was created with the guidance of [Linkedin Learning Course](https://www.linkedin.com/learning/flutter-part-07-building-the-ui-or-flutter-part-07-building-uis)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Demo
+<p align="center">
+  <img width="30%" src="images/screen.gif">
+</p>
