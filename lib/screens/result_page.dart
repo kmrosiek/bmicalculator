@@ -37,21 +37,24 @@ class ResultPage extends StatelessWidget {
               child: ReusableCard(
                 backgroundColor: reusableCardColor,
                 onTap: () {},
-                cardChild: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(weightStatusLabel,
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 22.0,
-                            color: weightStatusColor)),
-                    Text(bmi, style: TextStyle(fontSize: 100)),
-                    Text(
-                      weightStatusDescription,
-                      style: TextStyle(),
-                      textAlign: TextAlign.center,
-                    ),
-                  ],
+                cardChild: Padding(
+                  padding: const EdgeInsets.all(40.0),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Text(weightStatusLabel,
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 22.0,
+                              color: weightStatusColor)),
+                      Text(bmi, style: TextStyle(fontSize: 100)),
+                      Text(
+                        weightStatusDescription,
+                        style: TextStyle(),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
