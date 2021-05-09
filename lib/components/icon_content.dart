@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:linkedin07bmicalculator/constants.dart';
 
 class GenderCard extends StatelessWidget {
   const GenderCard({required this.text, required this.icon});
@@ -15,8 +15,8 @@ class GenderCard extends StatelessWidget {
         Icon(icon, size: 80.0),
         SizedBox(height: 15.0),
         Text(text,
-            style:
-                TextStyle(fontSize: 18.0, color: Color(0xFF8D8E98))),
+              style: kLabelTextStyle
+        )
       ],
     );
   }
